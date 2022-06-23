@@ -13,6 +13,8 @@
 		B5FECA5B284E92AB007C299F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5FECA59284E92AB007C299F /* Main.storyboard */; };
 		B5FECA5D284E92AC007C299F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5FECA5C284E92AC007C299F /* Assets.xcassets */; };
 		B5FECA60284E92AC007C299F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5FECA5E284E92AC007C299F /* LaunchScreen.storyboard */; };
+		B5FECA8B284EAB98007C299F /* RecipesListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FECA89284EAB98007C299F /* RecipesListTableViewCell.swift */; };
+		B5FECA8C284EAB98007C299F /* recipesListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5FECA8A284EAB98007C299F /* recipesListTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		B5FECA5C284E92AC007C299F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5FECA5F284E92AC007C299F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5FECA61284E92AC007C299F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5FECA89284EAB98007C299F /* RecipesListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesListTableViewCell.swift; sourceTree = "<group>"; };
+		B5FECA8A284EAB98007C299F /* recipesListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = recipesListTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		B5FECA52284E92AB007C299F /* RecipesTableView */ = {
 			isa = PBXGroup;
 			children = (
+				B5FECA87284EAB36007C299F /* CustomCell */,
 				B5FECA53284E92AB007C299F /* AppDelegate.swift */,
 				B5FECA55284E92AB007C299F /* SceneDelegate.swift */,
 				B5FECA57284E92AB007C299F /* ViewController.swift */,
@@ -65,6 +70,15 @@
 				B5FECA61284E92AC007C299F /* Info.plist */,
 			);
 			path = RecipesTableView;
+			sourceTree = "<group>";
+		};
+		B5FECA87284EAB36007C299F /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				B5FECA89284EAB98007C299F /* RecipesListTableViewCell.swift */,
+				B5FECA8A284EAB98007C299F /* recipesListTableViewCell.xib */,
+			);
+			path = CustomCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +142,7 @@
 				B5FECA60284E92AC007C299F /* LaunchScreen.storyboard in Resources */,
 				B5FECA5D284E92AC007C299F /* Assets.xcassets in Resources */,
 				B5FECA5B284E92AB007C299F /* Main.storyboard in Resources */,
+				B5FECA8C284EAB98007C299F /* recipesListTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +156,7 @@
 				B5FECA58284E92AB007C299F /* ViewController.swift in Sources */,
 				B5FECA54284E92AB007C299F /* AppDelegate.swift in Sources */,
 				B5FECA56284E92AB007C299F /* SceneDelegate.swift in Sources */,
+				B5FECA8B284EAB98007C299F /* RecipesListTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
